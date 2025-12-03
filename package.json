@@ -1,7 +1,7 @@
 {
   "name": "ts-playground",
   "version": "1.0.0",
-  "description": "TypeScript Playground",
+  "description": "A TypeScript playground for practicing and experimenting with TypeScript features, type assertions, and runtime testing",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,16 @@
     "check": "biome check .",
     "check:fix": "biome check --write ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "playground",
+    "types",
+    "assertions",
+    "practice",
+    "learning",
+    "experiment"
+  ],
+  "author": "behzad.am@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "^1.8.0",
