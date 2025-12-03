@@ -24,7 +24,7 @@
     "experiment"
   ],
   "author": "behzad.am@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^1.8.0",
     "@types/node": "^20.10.0",
