@@ -1,6 +1,8 @@
 // TypeScript Playground
 // Start coding here!
 
+import assert from "assert";
+
 interface User {
   name: string;
   age: number;
@@ -17,5 +19,8 @@ const user: User = {
   email: "dev@example.com"
 };
 
-console.log(greetUser(user));
+// Test the output with assert
+const result = greetUser(user);
+assert.strictEqual(result, "Hello, TypeScript Developer! You are 25 years old.");
+console.log("✓ All assertions passed!");
 

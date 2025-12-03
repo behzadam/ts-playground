@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  asserttt:
+    specifier: ^1.0.1
+    version: 1.0.1
+
 devDependencies:
   '@biomejs/biome':
     specifier: ^1.8.0
@@ -169,6 +174,10 @@ packages:
   /arg@4.1.3:
     resolution: {integrity: sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==}
     dev: true
+
+  /asserttt@1.0.1:
+    resolution: {integrity: sha512-bqiz6RE6xNait1jl8r8rXSlKEf2ZTKTzc+hVxu3n8cUjZftK2meo42PPq1sW09nlwnPlCJbo6eAI9du4SdOtbQ==}
+    dev: false
 
   /create-require@1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
