@@ -5,10 +5,6 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
-    "start": "ts-node src/index.ts",
-    "dev": "ts-node --watch src/index.ts",
     "typecheck": "tsc --noEmit",
     "typecheck:watch": "tsc --noEmit --watch",
     "format": "biome format --write .",
