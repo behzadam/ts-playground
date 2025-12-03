@@ -6,6 +6,6 @@ type _ = [
     Pair<'a'>, ['a', 'a']
   >>,
   Assert<Not<Equal<
-    Pair<'a'>, ['x', 'x']
+    Pair<'a'>, ['x', 'z']
   >>>,
 ];
