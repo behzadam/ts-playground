@@ -5,23 +5,19 @@
       "type": "node",
       "request": "launch",
       "name": "Debug Current TS File",
-      "runtimeArgs": ["-r", "ts-node/register"],
-      "args": ["${file}"],
+      "program": "${file}",
       "cwd": "${workspaceFolder}",
-      "protocol": "inspector",
       "internalConsoleOptions": "openOnSessionStart",
       "skipFiles": ["<node_internals>/**"]
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug index.ts",
-      "runtimeArgs": ["-r", "ts-node/register"],
-      "args": ["${workspaceFolder}/src/index.ts"],
+      "name": "Debug playground.ts",
+      "program": "${workspaceFolder}/src/playground.ts",
       "cwd": "${workspaceFolder}",
-      "protocol": "inspector",
       "internalConsoleOptions": "openOnSessionStart",
       "skipFiles": ["<node_internals>/**"]
-    }
+    },
   ]
 }
