@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "play": "node --watch src/*.ts",
     "typecheck": "tsc --noEmit",
     "typecheck:watch": "tsc --noEmit --watch",
     "format": "biome format --write .",
@@ -28,7 +29,6 @@
   "devDependencies": {
     "@biomejs/biome": "^1.8.0",
     "@types/node": "^20.10.0",
-    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {
